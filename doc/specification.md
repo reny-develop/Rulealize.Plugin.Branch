@@ -31,7 +31,7 @@ does no branching at all — a pure constraint description, say — leave Branch
 ```jsonc
 {
   "op": "branch.if",
-  "cond": <expression:Bool>,
+  "cond": <expression:Boolean>,
   "then": <expression>,
   "else": <expression>          // optional
 }
@@ -97,7 +97,7 @@ Branching on a value.
 {
   "op": "branch.match",
   "value": <expression>,
-  "cases": { "<key>": <expression>, ... },   // the keys are static
+  "cases": { "<key>": <expression>, … },     // the keys are static
   "default": <expression>                    // optional
 }
 ```

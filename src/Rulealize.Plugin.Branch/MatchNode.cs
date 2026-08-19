@@ -25,7 +25,7 @@ namespace Rulealize.Plugin.Branch
     /// <para>
     /// There is no exhaustiveness check. Deciding statically that the cases cover
     /// everything would need the subject's type, and the DSL has no type inference yet; a
-    /// missing case is found when it is missed. Othello's turn-flipping is safe in
+    /// missing case is found when it is missed. Reversi's turn-flipping is safe in
     /// practice, but what makes it safe is the enumeration in <c>state.schema</c>, not
     /// anything this node knows.
     /// </para>
