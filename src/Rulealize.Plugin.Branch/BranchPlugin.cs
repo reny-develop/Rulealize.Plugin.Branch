@@ -17,7 +17,7 @@ namespace Rulealize.Plugin.Branch
     {
         /// <inheritdoc />
         public PluginManifest Manifest { get; } =
-            new("Rulealize.Plugin.Branch", new Version(1, 0, 0), "branch");
+            new("Rulealize.Plugin.Branch", new Version(1, 0, 1), "branch");
 
         /// <inheritdoc />
         public void Register(IPluginRegistry registry)
